@@ -7,14 +7,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
       - run: npm install --legacy-peer-deps
       - run: npm run build
-      - run: npx cap add android --web-dir=dist
+      - run: npx cap add android --web-dir=dist || echo exists
       - run: npx cap copy android --web-dir=dist
       - run: cd android && chmod +x gradlew &&./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
