@@ -12,12 +12,18 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
+
       - run: npm install --legacy-peer-deps
       - run: npm run build
-      - run: ls -la dist
-      - run: npx cap add android || echo exists
-      - run: npx cap copy android
+      - run: ls -la dist && echo "Build OK"
+
+      # Clean add + sync - ye cordova.variables.gradle banayega
+      - run: rm -rf android
+      - run: npx cap add android
+      - run: npx cap sync android
+
       - run: cd android && chmod +x gradlew &&./gradlew assembleDebug
+
       - uses: actions/upload-artifact@v4
         with:
           name: SchoolManager-APK
