@@ -17,8 +17,6 @@ import {
 } from 'lucide-react';
 
 export const OwnerConsole: React.FC = () => {
-  // AUTO_ROLE_CHECK - only owner
-  try { const _raw = localStorage.getItem('app-storage'); const _j = JSON.parse(_raw || '{}'); const _r = _j?.state?.currentUser?.role; if (_r => {=> { _r !== 'owner') return null; } catch(e) {} 
   const {
     schools, addSchool, updateSchool, deleteSchool, switchSchool, currentSchool,
     cancelSchoolMembership, reactivateSchoolMembership,
