@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() { return request.auth != null; }
+    function role() {
+      return isSignedIn() ?
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role : 'none';
+    }
+    function isAdmin()   { return role() == 'admin'; }
+    function isTeacher() { return role() == 'teacher'; }
+    function isStudent() { return role() == 'student'; }
+    function isParent()  { return role() == 'parent'; }
+    function isAdminOrTeacher() { return isAdmin() || isTeacher(); }
+    function isOwner(uid) { return isSignedIn() && request.auth.uid == uid; }
+
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isAdmin();
+      allow update: if isAdmin() || (isOwner(userId) && request.resource.data.role == resource.data.role);
+      allow delete: if isAdmin();
+    }
+    match /attendance/{docId} {
+      allow read: if isSignedIn();
+      allow create, update: if isAdminOrTeacher();
+      allow delete: if isAdmin();
+    }
+    match /fees/{docId} {
+      allow read: if isAdminOrTeacher() || (isSignedIn() && resource.data.studentId == request.auth.uid);
+      allow create, update, delete: if isAdmin();
+    }
+    match /notices/{docId} {
+      allow read: if isSignedIn();
+      allow create, update, delete: if isAdmin();
+    }
+    match /assignments/{docId} {
+      allow read: if isSignedIn();
+      allow create, update, delete: if isTeacher() || isAdmin();
+    }
+    match /grades/{docId} {
+      allow read: if isAdminOrTeacher() || (isSignedIn() && resource.data.studentId == request.auth.uid) || isParent();
+      allow create, update, delete: if isAdminOrTeacher();
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

@@ -1,0 +1,229 @@
+╔══════════════════════════════════════════════════════════╗
+║           SCHOOL MANAGER — DIAGNOSTIC REPORT             ║
+╚══════════════════════════════════════════════════════════╝
+
+Generated: 2026-09-28 19:18:45
+
+═══════════════════════════════════════════════════════════
+  SECTION 1 — PROJECT OVERVIEW
+═══════════════════════════════════════════════════════════
+Kotlin files:          112
+Resource XML files:    9
+Total .kt LOC:         15811
+APK present:           YES
+APK size:              30M
+
+═══════════════════════════════════════════════════════════
+  SECTION 2 — CORRUPTION SCAN
+═══════════════════════════════════════════════════════════
+✅ No corrupt files
+Total broken: 0
+
+═══════════════════════════════════════════════════════════
+  SECTION 3 — BRACE BALANCE
+═══════════════════════════════════════════════════════════
+✅ All brace-balanced
+Total unbalanced: 0
+
+═══════════════════════════════════════════════════════════
+  SECTION 4 — DUPLICATE TOP-LEVEL FUNCTIONS
+═══════════════════════════════════════════════════════════
+(empty = no duplicates)
+
+═══════════════════════════════════════════════════════════
+  SECTION 5 — KEY COMPOSABLE FUNCTIONS
+═══════════════════════════════════════════════════════════
+✅ AppNavigation
+✅ AppDrawerContentNew
+✅ LoginScreen
+✅ SignupScreen
+✅ SettingsScreen
+✅ ProfileScreen
+✅ AdminDashboard
+✅ TeacherDashboard
+✅ StudentDashboard
+✅ ParentDashboard
+✅ PendingUsersScreen
+✅ FeedbackScreen
+✅ AboutScreen
+✅ ContactScreen
+✅ BulkTimetableScreen
+✅ HallTicketScreen
+✅ ReportCardScreen
+✅ TimetableGridScreen
+✅ AdminTimetableListScreen
+
+═══════════════════════════════════════════════════════════
+  SECTION 6 — ALL ROUTES
+═══════════════════════════════════════════════════════════
+const val LOGIN = "login"
+const val FORGOT_PASSWORD = "forgot_password"
+const val SIGNUP = "signup"
+const val ADMIN_PENDING_USERS = "admin_pending_users"
+const val PROFILE = "profile"
+const val SETTINGS = "settings"
+const val FEEDBACK = "feedback"
+const val ABOUT = "about"
+const val CONTACT = "contact"
+const val NOTIFICATIONS = "notifications"
+const val STAFF_DIRECTORY = "staff_directory"
+const val TEACHER_TIMETABLE = "teacher_timetable"
+const val ALL_ENTRIES = "all_entries"
+const val GLOBAL_SEARCH = "global_search"
+const val ADMIN_DASHBOARD = "admin_dashboard"
+const val ADMIN_USERS = "admin_users"
+const val ADMIN_USER_FORM = "admin_user_form/{userId}"
+const val ADMIN_CLASSES = "admin_classes"
+const val ADMIN_CLASS_FORM = "admin_class_form/{classId}"
+const val ADMIN_CLASS_DETAIL = "admin_class_detail/{classId}"
+const val ADMIN_SUBJECT_FORM = "admin_subject_form/{classId}/{subjectId}"
+const val ADMIN_EXAMS = "admin_exams"
+const val ADMIN_EXAM_FORM = "admin_exam_form/{examId}"
+const val ADMIN_TIMETABLE = "admin_timetable"
+const val ADMIN_TIMETABLE_CLASS = "admin_timetable_class/{classId}"
+const val ADMIN_TIMETABLE_BULK = "admin_timetable_bulk/{classId}"
+const val ADMIN_ANALYTICS = "admin_analytics"
+const val TEACHER_DASHBOARD = "teacher_dashboard"
+const val TEACHER_ATTENDANCE = "teacher_attendance"
+const val TEACHER_GRADEBOOK = "teacher_gradebook/{examId}"
+const val TEACHER_ASSIGNMENTS = "teacher_assignments"
+const val TEACHER_ASSIGNMENT_FORM = "teacher_assignment_form/{assignmentId}"
+const val STUDENT_DASHBOARD = "student_dashboard"
+const val STUDENT_RESULTS = "student_results"
+const val STUDENT_ATTENDANCE = "student_attendance"
+const val STUDENT_TIMETABLE = "student_timetable"
+const val STUDENT_ASSIGNMENTS = "student_assignments"
+const val STUDENT_REPORT_CARD = "student_report_card"
+const val HALL_TICKET = "hall_ticket/{examId}"
+const val PARENT_DASHBOARD = "parent_dashboard"
+const val NOTICE_BOARD = "notice_board"
+const val FEES = "fees"
+const val CHAT_LIST = "chat_list"
+const val CHAT_ROOM = "chat_room/{chatId}"
+const val FEE_PAYMENT = "fee_payment/{feeId}"
+
+═══════════════════════════════════════════════════════════
+  SECTION 7 — NAVIGATION COMPOSABLES WIRED
+═══════════════════════════════════════════════════════════
+ADMIN_ANALYTICS
+ADMIN_CLASSES
+ADMIN_CLASS_DETAIL
+ADMIN_CLASS_FORM
+ADMIN_DASHBOARD
+ADMIN_EXAMS
+ADMIN_EXAM_FORM
+ADMIN_PENDING_USERS
+ADMIN_SUBJECT_FORM
+ADMIN_TIMETABLE
+ADMIN_TIMETABLE_BULK
+ADMIN_TIMETABLE_CLASS
+ADMIN_USERS
+ADMIN_USER_FORM
+ALL_ENTRIES
+CHAT_LIST
+CHAT_ROOM
+FEES
+FEE_PAYMENT
+FORGOT_PASSWORD
+GLOBAL_SEARCH
+HALL_TICKET
+LOGIN
+NOTICE_BOARD
+NOTIFICATIONS
+PARENT_DASHBOARD
+PROFILE
+SETTINGS
+SIGNUP
+STAFF_DIRECTORY
+STUDENT_ASSIGNMENTS
+STUDENT_ATTENDANCE
+STUDENT_DASHBOARD
+STUDENT_REPORT_CARD
+STUDENT_RESULTS
+STUDENT_TIMETABLE
+TEACHER_ASSIGNMENTS
+TEACHER_ASSIGNMENT_FORM
+TEACHER_ATTENDANCE
+TEACHER_DASHBOARD
+TEACHER_GRADEBOOK
+TEACHER_TIMETABLE
+
+═══════════════════════════════════════════════════════════
+  SECTION 8 — GRADLE
+═══════════════════════════════════════════════════════════
+-- Plugins:
+  id("com.android.application") version "8.7.3" apply false
+  id("org.jetbrains.kotlin.android") version "2.1.0" apply false
+  id("com.google.dagger.hilt.android") version "2.56.1" apply false
+  id("com.google.gms.google-services") version "4.4.2" apply false
+  id("com.google.firebase.crashlytics") version "3.0.2" apply false
+  id("org.jetbrains.kotlin.plugin.compose") version "2.1.0" apply false
+
+-- SDK & Version:
+  compileSdk = 35
+  applicationId = "com.school.manager"
+  minSdk = 26
+  targetSdk = 35
+  versionCode = 1
+  versionName = "1.0.0"
+
+═══════════════════════════════════════════════════════════
+  SECTION 9 — MANIFEST
+═══════════════════════════════════════════════════════════
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <activity
+  <service
+  <provider
+
+═══════════════════════════════════════════════════════════
+  SECTION 10 — LAST BUILD LOG
+═══════════════════════════════════════════════════════════
+-- Last 3 lines:
+  
+  BUILD SUCCESSFUL in 5m 22s
+  44 actionable tasks: 6 executed, 38 up-to-date
+
+-- Error count: 0
+
+-- All errors:
+  ✅ No compile errors
+
+═══════════════════════════════════════════════════════════
+  SECTION 11 — RECENTLY MODIFIED (last 2h)
+═══════════════════════════════════════════════════════════
+  data/prefs/UserPreferences.kt
+  di/AppModule.kt
+  ui/admin/AdminDashboard.kt
+  ui/auth/AuthViewModel.kt
+  ui/auth/LoginScreen.kt
+  ui/components/DashboardHeader.kt
+  ui/components/SchoolTopBar.kt
+  ui/info/InfoScreens.kt
+  ui/navigation/AppDrawerContent.kt
+  ui/navigation/AppNavigation.kt
+  ui/navigation/BottomNavBar.kt
+  ui/navigation/Routes.kt
+  ui/parent/ParentDashboard.kt
+  ui/settings/SettingsScreen.kt
+  ui/settings/SettingsViewModel.kt
+  ui/staff/StaffDirectoryScreen.kt
+  ui/staff/StaffDirectoryViewModel.kt
+  ui/student/StudentDashboard.kt
+  ui/teacher/TeacherDashboard.kt
+  ui/timetable/AllEntriesScreen.kt
+  ui/timetable/AllEntriesViewModel.kt
+  ui/timetable/TeacherTimetableScreen.kt
+  ui/timetable/TeacherTimetableViewModel.kt
+
+═══════════════════════════════════════════════════════════
+  SECTION 12 — STUB FILES (under 30 lines)
+═══════════════════════════════════════════════════════════
+⚠️  13 lines  →  di/RepositoryModule.kt
+⚠️  14 lines  →  ui/navigation/BottomNavBar.kt
+⚠️  7 lines  →  util/Resource.kt
+
+╔══════════════════════════════════════════════════════════╗
+║                    END OF REPORT                         ║
+╚══════════════════════════════════════════════════════════╝

@@ -1,0 +1,65 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() { return request.auth != null; }
+    function userDoc() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+    function role() { return isSignedIn() ? userDoc().role : 'none'; }
+    function isAdmin()          { return role() == 'admin' || role() == 'owner'; }
+    function isTeacher()        { return role() == 'teacher'; }
+    function isStudent()        { return role() == 'student'; }
+    function isParent()         { return role() == 'parent'; }
+    function isAdminOrTeacher() { return isAdmin() || isTeacher(); }
+    function isOwner(uid)       { return isSignedIn() && request.auth.uid == uid; }
+
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdminOrTeacher();
+      allow create: if isAdmin();
+      allow update: if isAdmin()
+        || (isOwner(userId) && request.resource.data.role == resource.data.role);
+      allow delete: if isAdmin();
+    }
+    match /settings/{docId}  { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /classes/{docId}   { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /subjects/{docId}  { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /exams/{docId}     { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /question_papers/{docId} { allow read: if isSignedIn(); allow write: if isAdminOrTeacher(); }
+    match /grade_settings/{docId}  { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /attendance/{docId} { allow read: if isSignedIn(); allow create, update: if isAdminOrTeacher(); allow delete: if isAdmin(); }
+    match /timetable/{docId} { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /fees/{docId} {
+      allow read: if isAdminOrTeacher() || (isSignedIn() && resource.data.studentId == request.auth.uid) || isParent();
+      allow create, update, delete: if isAdmin();
+    }
+    match /fee_heads/{docId} { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /payment_methods/{docId} { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /invoices/{docId} { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /expenses/{docId} { allow read: if isAdmin(); allow write: if isAdmin(); }
+    match /payroll/{docId}  { allow read: if isAdmin(); allow write: if isAdmin(); }
+    match /notices/{docId}  { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /assignments/{docId} { allow read: if isSignedIn(); allow create, update, delete: if isTeacher() || isAdmin(); }
+    match /submissions/{docId} { allow read: if isSignedIn(); allow create, update: if isStudent() || isTeacher() || isAdmin(); allow delete: if isAdmin(); }
+    match /grades/{docId} { allow read: if isAdminOrTeacher() || (isSignedIn() && resource.data.studentId == request.auth.uid) || isParent(); allow create, update, delete: if isAdminOrTeacher(); }
+    match /certificates/{docId}   { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /result_cards/{docId}   { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /library_books/{docId}  { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /transport_routes/{docId} { allow read: if isSignedIn(); allow write: if isAdmin(); }
+    match /admission_enquiries/{docId} { allow read: if isAdminOrTeacher(); allow create: if isSignedIn(); allow update, delete: if isAdmin(); }
+    match /leave_requests/{docId} { allow read: if isAdmin() || (isTeacher() && resource.data.teacherId == request.auth.uid); allow create: if isTeacher(); allow update: if isAdmin(); allow delete: if isAdmin() || (isTeacher() && resource.data.teacherId == request.auth.uid); }
+    match /chats/{chatId} {
+      allow read: if isSignedIn() && (request.auth.uid in resource.data.participants || isAdmin());
+      allow create: if isSignedIn() && request.auth.uid in request.resource.data.participants;
+      allow update: if isSignedIn() && request.auth.uid in resource.data.participants;
+      match /messages/{msgId} {
+        allow read: if isSignedIn();
+        allow create: if isSignedIn() && request.resource.data.senderId == request.auth.uid;
+      }
+    }
+    match /families/{docId}  { allow read: if isAdminOrTeacher(); allow write: if isAdmin(); }
+    match /schools/{docId}   { allow read: if isSignedIn(); allow write: if role() == 'owner'; }
+    match /audit_log/{docId} { allow read: if isAdmin(); allow create: if isSignedIn(); allow update, delete: if false; }
+    match /notification_logs/{docId} { allow read: if isAdmin(); allow create: if isSignedIn(); }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

@@ -1,0 +1,32 @@
+.gradle/
+build/
+*/build/
+local.properties
+
+*.apk
+*.aab
+
+*.jks
+*.keystore
+
+google-services.json
+
+.idea/
+*.iml
+
+.DS_Store
+
+captures/
+
+.externalNativeBuild/
+.cxx/
+
+.env
+.env.*
+
+# Local project backup archives
+SchoolManager-Pro-Backup-*.zip
+SchoolManager-Pro-Menu-Logo-Fix-*.zip
+
+# Other local archives
+*.zip

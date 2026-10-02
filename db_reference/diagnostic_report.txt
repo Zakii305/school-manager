@@ -1,0 +1,112 @@
+═══════════════════════════════════════════════
+  BEACON LEAF BACKUP — DIAGNOSTIC REPORT
+═══════════════════════════════════════════════
+Size: 1.3M
+Lines: 4654
+
+══ TABLES + ROW COUNTS ══
+  admission_enquiries            9
+  announcement_recipients        23
+  announcements                  1
+  asset_issues                   0
+  asset_purchases                0
+  assets                         0
+  attendance                     772
+  audit_log                      1020
+  book_issues                    10
+  books                          8
+  branches                       3
+  certificates                   10
+  class_fee_structure            19
+  classes                        19
+  conversation_attachments       0
+  conversation_messages          19
+  conversation_participants      45
+  conversations                  15
+  exam_results                   144
+  exam_schedule                  3
+  exams                          3
+  expenses                       31
+  families                       2
+  fee_heads                      3
+  grade_scales                   6
+  homework                       8
+  homework_attachments           0
+  hostel_allocations             6
+  hostel_rooms                   8
+  invoice_items                  359
+  invoice_payments               194
+  invoices                       322
+  late_fee_slabs                 4
+  leave_requests                 4
+  migrations                     74
+  modules                        18
+  notices                        4
+  notification_logs              428
+  notification_triggers          5
+  parent_accounts                2
+  parent_children                10
+  password_resets                1
+  payment_methods                3
+  payment_receipts               8
+  payroll                        44
+  permissions                    69
+  question_paper_mcqs            0
+  question_paper_subjective      5
+  question_papers                15
+  result_card_items              70
+  result_cards                   15
+  roles                          5
+  settings                       24
+  staff                          23
+  student_documents              9
+  students                       188
+  subjects                       72
+  syllabus                       20
+  syllabus_document_subjects     24
+  syllabus_documents             8
+  tenant_configuration           1
+  timetable                      214
+  transport_assignments          15
+  transport_routes               3
+  users                          6
+
+══ COLUMNS (key tables) ══
+
+── admission_enquiries ──
+id 
+
+── announcements ──
+id 
+
+── attendance ──
+id 
+
+── students ──
+id 
+
+── classes ──
+id 
+
+── subjects ──
+id 
+
+── exams ──
+id 
+
+── fees ──
+
+
+══ STATUS VALUES USED ══
+Attendance statuses:
+'absent'
+'late'
+'leave'
+'present'
+
+Enquiry statuses:
+'approved'
+'converted'
+'interview_scheduled'
+'new'
+'rejected'

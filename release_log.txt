@@ -1,0 +1,1725 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+WARNING: The option setting 'android.aapt2FromMavenOverride=/data/data/com.termux/files/usr/bin/aapt2' is experimental.
+
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:generateReleaseBuildConfig
+> Task :app:checkReleaseAarMetadata
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:injectCrashlyticsMappingFileIdRelease
+> Task :app:processReleaseGoogleServices UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:packageReleaseResources
+> Task :app:parseReleaseLocalResources
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+09-28 23:37:57.511 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a8.
+09-28 23:37:57.512 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040126.
+09-28 23:37:57.512 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403cf.
+09-28 23:37:57.512 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040366.
+09-28 23:37:57.512 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b1.
+09-28 23:37:57.512 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040127.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040046.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04004f.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04004e.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040112.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04019e.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ae.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ee.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401be.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ed.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ad.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d0.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a5.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013f.
+09-28 23:37:57.513 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e2.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c0.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c4.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040156.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040000.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040115.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040116.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04038c.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040081.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040236.
+09-28 23:37:57.514 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a3.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033f.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040235.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040333.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040080.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040157.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04022b.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04022c.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035c.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040356.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040357.
+09-28 23:37:57.515 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035a.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040359.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040229.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04022a.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04034c.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c1.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c2.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403bc.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403bd.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403be.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040390.
+09-28 23:37:57.516 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ac.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040043.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040042.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040041.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040040.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04003f.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040188.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04022e.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040172.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e8.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040192.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040131.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040137.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040132.
+09-28 23:37:57.517 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04012f.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040134.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040130.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040135.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040136.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040142.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ff.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040408.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040400.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040401.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040404.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040403.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040405.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040402.
+09-28 23:37:57.518 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040406.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040407.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040008.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040007.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040009.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040020.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040021.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040003.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040006.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040005.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04000a.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04001e.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04000b.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040004.
+09-28 23:37:57.519 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040001.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040002.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04000f.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040010.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04001d.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040012.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040011.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04001c.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040014.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040016.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040015.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040018.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04001a.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04001b.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040017.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04001f.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040013.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040019.
+09-28 23:37:57.520 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04039b.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403a4.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403a1.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040125.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040124.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040234.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040123.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04000d.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013a.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040349.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04000c.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04007d.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040079.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040322.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040323.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040067.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04012a.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040128.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040025.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d2.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d1.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e1.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e3.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013d.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013c.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401bc.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403a3.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403a2.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403a8.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040320.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040239.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04023b.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04023a.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04023d.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04023e.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04023f.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04023c.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040139.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040238.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04039d.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04039e.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04039f.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c2.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c4.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c3.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040231.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400d5.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400d6.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c8.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400cd.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400cb.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400cc.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ca.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400dd.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f5.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c9.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002d.
+09-28 23:37:57.521 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002b.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002c.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002e.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403a7.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04007c.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04007a.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04007b.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04003e.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040083.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040084.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040093.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04009c.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013e.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f2.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f4.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f5.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f6.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040321.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04034a.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04036e.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040237.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d4.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d3.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ce.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f6.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040233.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040232.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fd.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040047.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040054.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040279.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402af.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040052.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401af.
+09-28 23:37:57.522 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f4.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e1.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403df.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401bf.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403dc.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04032c.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a3.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04032e.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040284.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040050.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040163.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040164.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040165.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040166.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040167.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a6.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402bb.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402bd.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402be.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401cb.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040063.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040061.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040065.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04005f.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04005d.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040060.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04005e.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040326.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040329.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040064.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040198.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c1.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002f.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f1.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04032b.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040087.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040088.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040089.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04008b.
+09-28 23:37:57.523 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04008d.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04008c.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ec.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ef.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f0.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f2.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ed.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040090.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040091.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040092.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b0.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04009d.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a6.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04009e.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ad.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ae.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040302.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a7.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04014c.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a5.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a2.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a1.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a4.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a3.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400bf.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ba.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b9.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400be.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400bc.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04009b.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040097.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040096.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04009a.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040330.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a4.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ac.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b6.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b2.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ad.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403a9.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400bd.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400bb.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04009f.
+09-28 23:37:57.524 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a8.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400a9.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400aa.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040340.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040341.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040324.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040095.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c3.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c2.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c0.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b8.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b5.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b6.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040271.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040325.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04015a.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04015d.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04015e.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04015c.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04015b.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04015f.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c5.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f3.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035d.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d0.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040318.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040316.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c4.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040159.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c6.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c3.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c5.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04027c.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040194.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040162.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f1.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f2.
+09-28 23:37:57.525 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040030.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e4.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04007e.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040085.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040086.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f7.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d1.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fa.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fc.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fb.
+09-28 23:37:57.526 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040200.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040201.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040202.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020b.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020c.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020e.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020f.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040215.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040214.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f9.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f8.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f6.
+09-28 23:37:57.527 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040210.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040211.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ff.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fe.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040222.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040225.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040223.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040220.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040224.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040221.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f4.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f3.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040207.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040216.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040219.
+09-28 23:37:57.528 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040203.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021b.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021a.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021c.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040205.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040204.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040206.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020a.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040213.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020d.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f7.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f5.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fd.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040209.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040218.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040208.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040217.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021e.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021f.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040059.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04005a.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e2.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040058.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04008f.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04017b.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040185.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040182.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040178.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040183.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040179.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040186.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040180.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04017a.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040184.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040175.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040177.
+09-28 23:37:57.529 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040174.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040176.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04017d.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04017f.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04017c.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04017e.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040033.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e5.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ca.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e7.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04012e.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04029d.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040212.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04029e.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040228.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401eb.
+09-28 23:37:57.530 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400df.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d7.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e4.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040121.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e3.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035b.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f0.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ee.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040227.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ef.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040226.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021d.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04003d.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04010e.
+09-28 23:37:57.531 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04010d.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040111.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040110.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040114.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04010f.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040113.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04010c.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040057.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040056.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403da.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002a.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031d.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031a.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031b.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031c.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d9.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040319.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040078.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ed.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040029.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d8.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c7.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040348.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040133.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040197.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04003a.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04003b.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040055.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b0.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013f.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040330.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a4.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040160.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033d.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c3.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04005b.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04005c.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040050.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040051.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040302.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040169.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040168.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04014c.
+09-28 23:37:57.532 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b0.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e9.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040066.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ef.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04027b.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040330.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a4.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040326.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040329.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d9.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04022f.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040189.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04018e.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04018f.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04018b.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04018a.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04018c.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04018d.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040190.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040191.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040187.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040193.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040192.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ec.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040195.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016a.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f5.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d2.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d3.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ff.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040300.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016b.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016c.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402eb.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ec.
+09-28 23:37:57.533 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ea.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040027.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040048.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b9.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e8.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040304.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030f.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030b.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030c.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040307.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040306.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030d.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030a.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040308.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040305.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030e.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040312.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040310.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040311.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040032.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040314.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040077.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f9.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f4.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040109.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040303.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b8.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040309.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402bb.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402bd.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402be.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c1.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040196.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04029f.
+09-28 23:37:57.534 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04010b.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403fd.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403fc.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403fb.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403fe.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e1.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ce.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402cf.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402cd.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402cc.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040342.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403fa.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ea.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b3.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b4.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b1.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403eb.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e9.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a0.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a1.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fa.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fc.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fb.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040200.
+09-28 23:37:57.535 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040201.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040202.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020b.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020c.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020e.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020f.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040215.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040214.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f9.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f8.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f6.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040210.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040211.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ff.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fe.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040222.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040225.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040223.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040220.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040224.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040221.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f4.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f3.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040207.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040216.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040219.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040203.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021b.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021a.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021c.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040205.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040204.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040206.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020a.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040213.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04020d.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f7.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401f5.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401fd.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040209.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040218.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040208.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040217.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021e.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04021f.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040059.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04005a.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e2.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04027a.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04027e.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040283.
+09-28 23:37:57.536 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040287.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040058.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04008f.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033b.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fc.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040338.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040335.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040337.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040336.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040339.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c0.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f6.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040057.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040056.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403da.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002a.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031d.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031a.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031b.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031c.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d9.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040319.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040078.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ed.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040029.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d8.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04027f.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040127.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04032f.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040129.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401bd.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c1.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401bb.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ba.
+09-28 23:37:57.537 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b1.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04024e.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040253.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040258.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04024d.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040246.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040251.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040256.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040255.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040250.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040252.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04024c.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040243.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040244.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04024a.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040257.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040247.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040259.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04024f.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040249.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040248.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04024b.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040254.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040245.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04004b.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04004c.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04004a.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040049.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04025b.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04025d.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04025c.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04025e.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04025a.
+09-28 23:37:57.538 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040050.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040051.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013f.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b1.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b5.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b4.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b3.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b7.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b8.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040326.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040329.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035e.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035f.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400fd.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040302.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040341.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040324.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040094.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040119.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040117.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040118.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04011a.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04040a.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040409.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04040b.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f3.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ad.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c9.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401df.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401da.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401db.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d2.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d3.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04008a.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040096.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04009a.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040099.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040098.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040358.
+09-28 23:37:57.539 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f0.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040085.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04022e.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e2.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b7.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a7.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c4.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040363.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040031.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b0.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04032d.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04000e.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040024.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040022.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e5.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d6.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e7.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040360.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040289.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04028b.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04028a.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040288.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04028c.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04028d.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040033.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e5.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ca.
+09-28 23:37:57.540 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04029c.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04029e.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04012e.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b5.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b2.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401eb.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04010a.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04029d.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040037.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040331.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04028e.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04011b.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ec.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04038f.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04038d.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04038e.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040122.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e9.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fe.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402dd.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402de.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402df.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04014d.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040155.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402db.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402dc.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ae.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040039.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ee.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040000.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040282.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04034f.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a4.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04019a.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040280.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e7.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c8.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d1.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401cd.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ce.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401de.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401dd.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04019d.
+09-28 23:37:57.541 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040281.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401dc.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ca.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401cc.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401cf.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d7.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d8.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d6.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d5.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401d4.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040313.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04038b.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b4.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04012c.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04012d.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04027d.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040276.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04012b.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d7.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d8.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403d9.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04022d.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ab.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a2.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b6.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033b.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fc.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040338.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040335.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040337.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040336.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040339.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033a.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033c.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c0.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f6.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040035.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040057.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040056.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403da.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04002a.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031d.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031a.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031b.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031c.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d9.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040319.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040078.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ed.
+09-28 23:37:57.542 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040029.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d8.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f1.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04003c.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033e.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04011e.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f2.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a8.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a7.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040045.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040334.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e0.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402da.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04036b.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fd.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04033b.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fc.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040339.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c0.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f6.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b7.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040355.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f7.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040212.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040271.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f3.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040285.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ba.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c0.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ed.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040347.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040301.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04034d.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016d.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040170.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040171.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016e.
+09-28 23:37:57.543 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016f.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401c5.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040062.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ea.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401b9.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f0.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04011c.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400b9.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040199.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031f.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04031e.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f8.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400de.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04036a.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ef.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040361.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400fe.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040101.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040102.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040100.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ff.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f8.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400fb.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400fc.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400fa.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f9.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035f.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04035e.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ec.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ed.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ee.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ef.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f0.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f1.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400f2.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040082.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400d9.
+09-28 23:37:57.544 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040315.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040028.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040026.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016a.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f5.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d2.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d3.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ff.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040300.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016b.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04016c.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402eb.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ec.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ea.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040048.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402b9.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e8.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040304.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030f.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030b.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030c.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040307.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040306.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030d.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030a.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040308.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040305.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04030e.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040312.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040310.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040311.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04019b.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04019c.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e5.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401e6.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b1.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b2.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b3.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b4.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b5.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b9.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ba.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403bb.
+09-28 23:37:57.545 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403bf.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403dc.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403dd.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403de.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e0.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040345.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040344.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040346.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040277.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040034.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04004d.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040051.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040023.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e2.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e3.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04011d.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b7.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b8.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403db.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e2.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e3.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403b6.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04036f.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04036c.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04036d.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04034b.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040332.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403f0.
+09-28 23:37:57.546 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040378.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04037b.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040371.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040370.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040375.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04037a.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040376.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040379.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040377.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04037f.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040372.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04037c.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04037e.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04037d.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040388.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040389.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040386.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040383.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040384.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040382.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040381.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040380.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040373.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040374.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040385.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04038a.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040188.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040390.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ac.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040192.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403aa.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401aa.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a9.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ab.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ac.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040158.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04019f.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a0.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a1.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401a2.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04014f.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040153.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040154.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04014e.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040150.
+09-28 23:37:57.547 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040151.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040152.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040103.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040104.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040107.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040108.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040105.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040106.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d4.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d5.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402d6.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e4.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e5.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402e6.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040367.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040368.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040369.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040352.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040351.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040350.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040353.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040354.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040147.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040146.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040145.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040144.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040148.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040149.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04006d.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04006e.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040072.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040071.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040070.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04006f.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040073.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040074.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04006c.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040075.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040076.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040326.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040329.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c7.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c6.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c5.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c8.
+09-28 23:37:57.548 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402c9.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04014a.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04014b.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403cd.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040364.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c3.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040362.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c7.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ca.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c9.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403cb.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403c8.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403cc.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400ea.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e6.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e8.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e9.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400eb.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e7.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040278.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04007f.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c2.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400c1.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a6.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402a5.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040240.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040241.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ce.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040365.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040280.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e1.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0400e0.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e4.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0401ec.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402ca.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040044.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04029a.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04013b.
+09-28 23:37:57.549 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f04034e.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403e6.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fa.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402fb.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f8.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402f9.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402bf.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0402bc.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f0403ae.
+09-28 23:37:57.550 19429 19429 E aapt2   : No package ID 7f found for resource ID 0x7f040051.
+
+> Task :app:processReleaseResources
+> Task :app:kaptGenerateStubsReleaseKotlin
+w: Support for language version 2.0+ in kapt is in Alpha and must be enabled explicitly. Falling back to 1.9.
+
+> Task :app:kaptReleaseKotlin
+> Task :app:compileReleaseKotlin
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/admin/AdminUserFormScreen.kt:82:56 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/assignments/AssignmentFormScreen.kt:103:56 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/assignments/AssignmentListScreen.kt:80:40 'val Icons.Filled.Assignment: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Assignment.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/assignments/AssignmentListScreen.kt:111:60 'val Icons.Filled.Assignment: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Assignment.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/auth/SignupScreen.kt:182:68 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/chat/ChatListScreen.kt:58:40 'val Icons.Filled.Chat: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Chat.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/chat/ChatListScreen.kt:73:40 'val Icons.Filled.Chat: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Chat.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/chat/ChatViewModel.kt:89:77 Unchecked cast of 'kotlin.Any?' to 'kotlin.collections.List<kotlin.String>'.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/chat/ChatViewModel.kt:91:81 Unchecked cast of 'kotlin.Any?' to 'kotlin.collections.Map<kotlin.String, kotlin.String>'.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/chat/ChatViewModel.kt:138:70 Unchecked cast of 'kotlin.Any?' to 'kotlin.collections.List<kotlin.String>'.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/chat/ChatViewModel.kt:168:83 Unchecked cast of 'kotlin.Any?' to 'kotlin.collections.Map<kotlin.String, kotlin.String>'.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/chat/ChatViewModel.kt:169:79 Unchecked cast of 'kotlin.Any?' to 'kotlin.collections.List<kotlin.String>'.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/classes/SubjectFormScreen.kt:108:56 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/exams/ExamFormScreen.kt:115:56 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/gradebook/GradebookScreen.kt:91:64 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/info/InfoScreens.kt:182:40 'val Icons.Filled.Send: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Send.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/parent/ParentDashboard.kt:200:44 'val Icons.Filled.Chat: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Chat.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/timetable/BulkTimetableScreen.kt:378:60 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+w: file:///data/data/com.termux/files/home/SchoolManager/app/src/main/java/com/school/manager/ui/timetable/TimetableGridScreen.kt:304:30 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes MenuAnchorType and enabled parameters.
+
+> Task :app:javaPreCompileRelease FROM-CACHE
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:extractProguardFiles
+> Task :app:hiltAggregateDepsRelease FROM-CACHE
+> Task :app:hiltJavaCompileRelease
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseNativeLibs
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so, libimagepipeline.so, libnative-filters.so, libnative-imagetranscoder.so.
+
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseArtProfile
+> Task :app:transformReleaseClassesWithAsm
+> Task :app:expandReleaseArtProfileWildcards
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseStartupProfile
+> Task :app:minifyReleaseWithR8
+> Task :app:compileReleaseArtProfile
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:uploadCrashlyticsMappingFileRelease
+09-29 00:07:48.864   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.865   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.865   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.866   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.866   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.867   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.867   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.868   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.868   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.868   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.869   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.869   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.870   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.871   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.871   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.872   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.872   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.873   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.873   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.873   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.874   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.874   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.874   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.875   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.875   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.875   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.876   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.876   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.876   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.876   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.876   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.876   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.877   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.877   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.877   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.877   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.878   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.878   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.878   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.878   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.878   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.879   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.879   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.879   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.879   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.879   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.880   308   308 W ResourceType: CREATING STRING CACHE OF 8 bytes
+09-29 00:07:48.880   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.880   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.881   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.881   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.881   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.881   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.881   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.882   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.882   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.882   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.883   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.884   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.884   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.884   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.884   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.884   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.885   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.885   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.885   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.885   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.885   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.885   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.885   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.886   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.886   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.886   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.886   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.886   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.887   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.887   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.887   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.887   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.887   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.887   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.888   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.888   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.888   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.888   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.888   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.888   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.889   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.890   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.890   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.890   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.890   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.890   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.890   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.891   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.891   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.891   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.891   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.891   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.891   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.891   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.892   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.892   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.892   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.892   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.892   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.892   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.893   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.893   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.893   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.893   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.893   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.893   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.894   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.894   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.894   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.894   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.894   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.895   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.895   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.895   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.895   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.895   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.896   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.896   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.896   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.896   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.896   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.896   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.897   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.897   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.897   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.897   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.897   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.898   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.898   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.898   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.898   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.898   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.899   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.899   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.899   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.899   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.899   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.899   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.900   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.900   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.900   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.900   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.900   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.900   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.901   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.901   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.901   308   308 W ResourceType: CREATING STRING CACHE OF 176 bytes
+09-29 00:07:48.901   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.901   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.902   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.902   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.902   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.902   308   308 W ResourceType: CREATING STRING CACHE OF 32 bytes
+09-29 00:07:48.903   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.903   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.903   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.903   308   308 W ResourceType: CREATING STRING CACHE OF 176 bytes
+09-29 00:07:48.904   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.904   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.904   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.905   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.905   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.905   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.906   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.906   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.906   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.906   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.907   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.907   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.907   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.907   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.908   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.908   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.908   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.908   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.908   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.908   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.909   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.909   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.909   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.909   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.910   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.910   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.911   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.911   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.912   308   308 W ResourceType: CREATING STRING CACHE OF 8 bytes
+09-29 00:07:48.912   308   308 W ResourceType: CREATING STRING CACHE OF 8 bytes
+09-29 00:07:48.912   308   308 W ResourceType: CREATING STRING CACHE OF 8 bytes
+09-29 00:07:48.913   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.913   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.913   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.914   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.914   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.914   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.914   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.915   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.915   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.916   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.916   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.916   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.916   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.917   308   308 W ResourceType: CREATING STRING CACHE OF 200 bytes
+09-29 00:07:48.917   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.917   308   308 W ResourceType: CREATING STRING CACHE OF 200 bytes
+09-29 00:07:48.917   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.918   308   308 W ResourceType: CREATING STRING CACHE OF 208 bytes
+09-29 00:07:48.918   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.918   308   308 W ResourceType: CREATING STRING CACHE OF 192 bytes
+09-29 00:07:48.919   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.919   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.919   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.919   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.919   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.920   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.920   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.920   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.920   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.921   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.921   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.921   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.921   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.922   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.922   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.922   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.922   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.923   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.923   308   308 W ResourceType: CREATING STRING CACHE OF 112 bytes
+09-29 00:07:48.923   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.923   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.924   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.924   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.924   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.924   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.925   308   308 W ResourceType: CREATING STRING CACHE OF 176 bytes
+09-29 00:07:48.926   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.926   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.927   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.927   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.928   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.928   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.928   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.929   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.929   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.929   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.930   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.930   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.931   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.931   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.931   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.932   308   308 W ResourceType: CREATING STRING CACHE OF 112 bytes
+09-29 00:07:48.932   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.933   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.933   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.933   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.934   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.934   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.935   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.935   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.935   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.936   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.936   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.936   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.937   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.937   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.937   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.938   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.938   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.938   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.939   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.939   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.939   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.939   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.939   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.940   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.940   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.940   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.940   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.941   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.941   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.941   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.941   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.942   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.942   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.943   308   308 W ResourceType: CREATING STRING CACHE OF 152 bytes
+09-29 00:07:48.943   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.943   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.944   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.944   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.944   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.944   308   308 W ResourceType: CREATING STRING CACHE OF 112 bytes
+09-29 00:07:48.944   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.944   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.945   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.945   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.945   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.945   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.945   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.945   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.946   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.946   308   308 W ResourceType: CREATING STRING CACHE OF 32 bytes
+09-29 00:07:48.946   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.946   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.946   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.947   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.947   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.947   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.947   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.948   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.948   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.948   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.948   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.948   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.949   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.949   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.949   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.949   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.949   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.949   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.950   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.950   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.951   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.951   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.951   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.951   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.951   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.951   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.951   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.952   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.952   308   308 W ResourceType: CREATING STRING CACHE OF 8 bytes
+09-29 00:07:48.952   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.952   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.952   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.952   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.953   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.953   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.953   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.953   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.954   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.954   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.954   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.955   308   308 W ResourceType: CREATING STRING CACHE OF 216 bytes
+09-29 00:07:48.955   308   308 W ResourceType: CREATING STRING CACHE OF 192 bytes
+09-29 00:07:48.956   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.956   308   308 W ResourceType: CREATING STRING CACHE OF 184 bytes
+09-29 00:07:48.956   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.957   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.957   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.957   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.957   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.957   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.958   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.958   308   308 W ResourceType: CREATING STRING CACHE OF 216 bytes
+09-29 00:07:48.958   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.959   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.959   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.959   308   308 W ResourceType: CREATING STRING CACHE OF 176 bytes
+09-29 00:07:48.959   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.960   308   308 W ResourceType: CREATING STRING CACHE OF 304 bytes
+09-29 00:07:48.961   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.961   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.961   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.962   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.962   308   308 W ResourceType: CREATING STRING CACHE OF 232 bytes
+09-29 00:07:48.962   308   308 W ResourceType: CREATING STRING CACHE OF 176 bytes
+09-29 00:07:48.963   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.963   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.963   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.963   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.964   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.964   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.964   308   308 W ResourceType: CREATING STRING CACHE OF 216 bytes
+09-29 00:07:48.965   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.965   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.965   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.965   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.965   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.965   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.966   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.966   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.966   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.966   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.966   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.967   308   308 W ResourceType: CREATING STRING CACHE OF 192 bytes
+09-29 00:07:48.967   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.967   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.967   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.968   308   308 W ResourceType: CREATING STRING CACHE OF 232 bytes
+09-29 00:07:48.968   308   308 W ResourceType: CREATING STRING CACHE OF 200 bytes
+09-29 00:07:48.969   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.969   308   308 W ResourceType: CREATING STRING CACHE OF 176 bytes
+09-29 00:07:48.969   308   308 W ResourceType: CREATING STRING CACHE OF 184 bytes
+09-29 00:07:48.970   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.970   308   308 W ResourceType: CREATING STRING CACHE OF 288 bytes
+09-29 00:07:48.971   308   308 W ResourceType: CREATING STRING CACHE OF 192 bytes
+09-29 00:07:48.971   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.971   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.971   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.972   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.972   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.972   308   308 W ResourceType: CREATING STRING CACHE OF 192 bytes
+09-29 00:07:48.972   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.973   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.973   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.973   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.973   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.974   308   308 W ResourceType: CREATING STRING CACHE OF 152 bytes
+09-29 00:07:48.974   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.974   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.974   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.975   308   308 W ResourceType: CREATING STRING CACHE OF 192 bytes
+09-29 00:07:48.975   308   308 W ResourceType: CREATING STRING CACHE OF 304 bytes
+09-29 00:07:48.976   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.976   308   308 W ResourceType: CREATING STRING CACHE OF 192 bytes
+09-29 00:07:48.977   308   308 W ResourceType: CREATING STRING CACHE OF 184 bytes
+09-29 00:07:48.977   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.977   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.978   308   308 W ResourceType: CREATING STRING CACHE OF 152 bytes
+09-29 00:07:48.978   308   308 W ResourceType: CREATING STRING CACHE OF 152 bytes
+09-29 00:07:48.978   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.978   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.978   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.979   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.979   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.979   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.979   308   308 W ResourceType: CREATING STRING CACHE OF 184 bytes
+09-29 00:07:48.980   308   308 W ResourceType: CREATING STRING CACHE OF 56 bytes
+09-29 00:07:48.980   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.980   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.980   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.980   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.981   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.981   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.981   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.981   308   308 W ResourceType: CREATING STRING CACHE OF 128 bytes
+09-29 00:07:48.982   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.982   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.982   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.983   308   308 W ResourceType: CREATING STRING CACHE OF 280 bytes
+09-29 00:07:48.983   308   308 W ResourceType: CREATING STRING CACHE OF 112 bytes
+09-29 00:07:48.984   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.984   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.984   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.984   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.984   308   308 W ResourceType: CREATING STRING CACHE OF 136 bytes
+09-29 00:07:48.985   308   308 W ResourceType: CREATING STRING CACHE OF 160 bytes
+09-29 00:07:48.985   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.985   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.985   308   308 W ResourceType: CREATING STRING CACHE OF 184 bytes
+09-29 00:07:48.986   308   308 W ResourceType: CREATING STRING CACHE OF 288 bytes
+09-29 00:07:48.987   308   308 W ResourceType: CREATING STRING CACHE OF 200 bytes
+09-29 00:07:48.987   308   308 W ResourceType: CREATING STRING CACHE OF 312 bytes
+09-29 00:07:48.988   308   308 W ResourceType: CREATING STRING CACHE OF 208 bytes
+09-29 00:07:48.988   308   308 W ResourceType: CREATING STRING CACHE OF 112 bytes
+09-29 00:07:48.989   308   308 W ResourceType: CREATING STRING CACHE OF 224 bytes
+09-29 00:07:48.990   308   308 W ResourceType: CREATING STRING CACHE OF 120 bytes
+09-29 00:07:48.990   308   308 W ResourceType: CREATING STRING CACHE OF 240 bytes
+09-29 00:07:48.991   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.991   308   308 W ResourceType: CREATING STRING CACHE OF 64 bytes
+09-29 00:07:48.991   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.991   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.991   308   308 W ResourceType: CREATING STRING CACHE OF 144 bytes
+09-29 00:07:48.992   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.992   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.992   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.992   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.993   308   308 W ResourceType: CREATING STRING CACHE OF 96 bytes
+09-29 00:07:48.993   308   308 W ResourceType: CREATING STRING CACHE OF 168 bytes
+09-29 00:07:48.993   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:48.994   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.994   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.994   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.994   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.994   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.994   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.995   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.995   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.995   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:48.995   308   308 W ResourceType: CREATING STRING CACHE OF 104 bytes
+09-29 00:07:48.995   308   308 W ResourceType: CREATING STRING CACHE OF 72 bytes
+09-29 00:07:48.995   308   308 W ResourceType: CREATING STRING CACHE OF 80 bytes
+09-29 00:07:48.995   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:48.996   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:49.002   308   308 W ResourceType: CREATING STRING CACHE OF 88 bytes
+09-29 00:07:49.002   308   308 W ResourceType: CREATING STRING CACHE OF 24 bytes
+09-29 00:07:49.002   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+09-29 00:07:49.002   308   308 W ResourceType: CREATING STRING CACHE OF 32 bytes
+09-29 00:07:49.003   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:49.003   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:49.003   308   308 W ResourceType: CREATING STRING CACHE OF 40 bytes
+09-29 00:07:49.003   308   308 W ResourceType: CREATING STRING CACHE OF 48 bytes
+
+> Task :app:convertLinkedResourcesToProtoRelease
+> Task :app:shrinkReleaseRes
+> Task :app:convertShrunkResourcesToBinaryRelease
+> Task :app:optimizeReleaseResources
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+
+BUILD SUCCESSFUL in 32m 16s
+59 actionable tasks: 52 executed, 2 from cache, 5 up-to-date

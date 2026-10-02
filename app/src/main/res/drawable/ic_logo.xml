@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Amber outer ring -->
+    <path
+        android:fillColor="#C7A568"
+        android:fillType="evenOdd"
+        android:pathData="M54,8 a46,46 0 1,0 0.01,0 Z M54,14 a40,40 0 1,1 -0.01,0 Z" />
+
+    <!-- Violet inner circle -->
+    <path
+        android:fillColor="#17243A"
+        android:pathData="M54,14 a40,40 0 1,0 0.01,0 Z" />
+
+    <!-- Graduation cap — main diamond -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28 L76,40 L54,52 L32,40 Z" />
+
+    <!-- Cap tassel -->
+    <path
+        android:fillColor="#C7A568"
+        android:pathData="M76,40 L83,43 L83,53 L80,53 L80,44.5 L76,42.5 Z" />
+
+    <!-- Open book — left page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,63 Q 41,57 53,63 L 53,81 Q 41,75 28,81 Z" />
+
+    <!-- Open book — right page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,63 Q 67,57 55,63 L 55,81 Q 67,75 80,81 Z" />
+
+    <!-- Spine crease -->
+    <path
+        android:strokeColor="#17243A"
+        android:strokeWidth="1.8"
+        android:pathData="M54,62 L54,82" />
+
+    <!-- Small amber star above cap -->
+    <path
+        android:fillColor="#C7A568"
+        android:pathData="M54,18 L55.8,21.5 L59.5,22 L56.8,24.6 L57.4,28.3 L54,26.5 L50.6,28.3 L51.2,24.6 L48.5,22 L52.2,21.5 Z" />
+</vector>
