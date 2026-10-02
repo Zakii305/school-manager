@@ -1,0 +1,6 @@
+{
+  "name": "School Manager - Multi-School Management System",
+  "description": "Multi-campus school management platform for owners, admins, teachers, students, and parents with admissions, ID cards, fee challans, timetable, attendance, exams, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
