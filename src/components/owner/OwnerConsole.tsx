@@ -1,10 +1,3 @@
-// Component ke andar sab se upar
-const { currentUser, schools, currentSchool } = useAppStore() // ya jo bhi store use ho raha hai
-
-// Owner nahi hai to kuch mat dikhao
-if (currentUser?.role !== 'owner') {
-  return null;
-}
 import React, { useState } from 'react';
 import { useSchool } from '../../context/SchoolContext';
 import { School, DemoCredentials, UserRole } from '../../types';
