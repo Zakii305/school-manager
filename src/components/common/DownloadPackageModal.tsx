@@ -12,6 +12,9 @@ import { SchoolLogo } from './SchoolLogo';
 import { buildAndroidApkBlob, buildAndroidAabBlob } from '../../utils/packageBuilder';
 
 export const DownloadPackageModal: React.FC = () => {
+  // AUTO_HIDE_IN_APK
+  try { const { Capacitor } = require('@capacitor/core'); if (Capacitor.isNativePlatform()) return null; } catch(e) {}
+  try { const _raw = localStorage.getItem('app-storage'); const _j = JSON.parse(_raw || '{}'); const _r = _j?.state?.currentUser?.role; if (_r && _r !== 'owner') { /* allow backup but hide apk buttons via css */ } } catch(e) {}
   const {
     isDownloadPackageModalOpen, closeDownloadPackageModal,
     branding, currentSchool, students, staff, classes,

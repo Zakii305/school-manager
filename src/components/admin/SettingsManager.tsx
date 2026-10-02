@@ -94,7 +94,7 @@ export const SettingsManager: React.FC = () => {
             className="flex items-center gap-1.5 px-3.5 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold rounded-xl text-xs shadow-md transition"
           >
             <Smartphone className="w-4 h-4" />
-            <span>Download APK / WebApp</span>
+            <span>Backup</span>
           </button>
         </div>
       </div>

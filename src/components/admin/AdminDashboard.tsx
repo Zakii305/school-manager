@@ -152,12 +152,12 @@ export const AdminDashboard: React.FC = () => {
             <span>Request Detail Edit</span>
           </button>
           <button
-            onClick={openDownloadPackageModal}
+            onClick={openDownloadPackageModal} style={{display:"none"}}
             className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-800 text-xs font-bold border border-amber-200 transition"
-            title="Download APK / AAB & Backups"
+            title="  / AAB & Backups"
           >
             <Download className="w-3.5 h-3.5 text-amber-600" />
-            <span>Download APK (5.8MB)</span>
+            <span> </span>
           </button>
           <button
             onClick={() => setActiveTab('students')}

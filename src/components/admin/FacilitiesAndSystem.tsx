@@ -1423,7 +1423,7 @@ export const FacilitiesAndSystem: React.FC<FacilitiesAndSystemProps> = ({ sectio
               <span>System Settings, Package Exports & Backup</span>
             </h1>
             <p className="text-xs text-slate-500 mt-1">
-              Download Android APK (5.8MB) & AAB bundles, plain text & JSON backups, and system rollover.
+              Backup Files, plain text & JSON backups, and system rollover.
             </p>
           </div>
 
@@ -1445,7 +1445,7 @@ export const FacilitiesAndSystem: React.FC<FacilitiesAndSystemProps> = ({ sectio
                 className="px-5 py-2.5 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold rounded-xl text-xs transition shadow-md flex items-center gap-2 self-start sm:self-auto shrink-0"
               >
                 <Download className="w-4 h-4 text-slate-950" />
-                <span>Open Download Center</span>
+                <span>Open Backup Center</span>
               </button>
             </div>
           </div>
